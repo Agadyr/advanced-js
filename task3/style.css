@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 80px;
+    padding: 0 100px;
+    background-color: cornflowerblue;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#posts{
+    width: 90%;
+    margin: 0 auto;
+}
+.p1{
+    padding: 10px 0;
+}
+.wrapper{
+    background-color: #fff;
+    border: 2px solid teal;
+    border-radius: 4px;
+    padding: 20px;
+
+}
+.btn-div{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}

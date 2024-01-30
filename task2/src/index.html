@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Module E Task 2</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="manifest" href="manifest.webmanifest">
+  </head>
+  <body>
+    <header>
+      <h1>News App</h1>
+      <span id="Install">Install App</span>
+    </header>
+
+    <div id="posts">
+
+    </div>
+  </body>
+  <script>
+    const install = document.querySelector("#Install")
+    let def = null
+
+    window.addEventListener('beforeinstallprompt', (event) => {
+      def = event
+    })
+    install.addEventListener("click", event => {
+      def.prompt()
+    })
+  </script>
+  <script src="index.js" defer></script>
+</html>

@@ -1,0 +1,11 @@
+{
+    "name":"Madi",
+    "short_name":"PWA",
+    "display":"fullscreen",
+    "start_url":"/",
+    "icons":[{
+        "src":"ai-news.png",
+        "sizes":"512x512",
+        "type":"image/png"
+    }]
+}
